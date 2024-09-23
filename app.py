@@ -5,7 +5,7 @@ import seaborn as sns
 sns.set()
 
 st.title('California Housing Data(1990) by Xinyue Zhou :')
-df = pd.read_csv('Housing.csv')
+df = pd.read_csv('housing.csv')
 housing_data = st.slider('Minimal Median House Price', 0, 500001, 200000)  # min, max, default
 
 # create a multi select
