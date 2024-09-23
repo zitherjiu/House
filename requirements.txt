@@ -1,0 +1,4 @@
+streamlit
+matplotlib
+WordCloud
+seaborn
